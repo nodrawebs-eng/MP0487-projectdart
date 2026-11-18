@@ -17,7 +17,7 @@ class Product {
 /// [cart] The list of products in the cart
 /// Returns the sum of all product prices
 double calculateSubtotal(List<Product> cart) {
-  double subtotal = 10.0;
+  double subtotal = 0.0;
   for (var product in cart) {
     subtotal += product.price;
   }
