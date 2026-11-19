@@ -29,7 +29,7 @@ void main() {
     });
 
     test('#4. calculateDiscountAmount should compute discount correctly', () {
-      expect(calculateDiscountAmount(100.0, 0.0), 0.0);
+      expect(calculateDiscountAmount(100.0, 0.00),   0.0);
       expect(calculateDiscountAmount(100.0, 0.10), closeTo(10.0, 0.01));
       expect(calculateDiscountAmount(100.0, 0.20), closeTo(20.0, 0.01));
     });
