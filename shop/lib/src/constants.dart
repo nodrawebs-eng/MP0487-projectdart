@@ -1,5 +1,6 @@
 /// App constants for hardcoded strings and values
 class AppConstants {
+  //prueba//
   // ===== Welcome & Main Menu Messages =====
   static const String welcomeMessage = '=== Welcome to the MARKMEDIA SHOP ===';
   static const String mainMenuTitle = '--- MAIN MENU ---';
